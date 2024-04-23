@@ -24,6 +24,9 @@
       @apply text-red-500 text-sm
     }
   </style>
+
+
+
   {{-- blade-formatter-enable --}}
 
   @livewireStyles
@@ -32,7 +35,7 @@
 <body class="container mx-auto mt-10 mb-10 max-w-lg">
   @livewireScripts
 
-  Hello
+  @livewire('create-poll')
 </body>
 
 </html>
